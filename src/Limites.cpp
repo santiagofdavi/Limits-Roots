@@ -81,7 +81,7 @@ void print_disp(int &grau, double M[][4], int *k, int *B,
 
     cout << "\n\nLimites:   " << L_xi[1] << " <= R+ <= "
          << L_xi[0] << " e " << L_xi[2]
-         << " <= R+ <= " << L_xi[3] << "\n\n";
+         << " <= R- <= " << L_xi[3] << "\n\n";
 
 }
 
